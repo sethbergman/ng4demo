@@ -1,10 +1,11 @@
 {
-  "name": "ng-universal-demo",
+  "name": "ng4demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "repository": {
     "git":"https://github.com/sethbergman/ng4demo.git"
   },
+  "homepage": "http://ng4demo.npmstack.com",
   "scripts": {
     "start": "npm run build && npm run server",
     "build": "webpack -p",

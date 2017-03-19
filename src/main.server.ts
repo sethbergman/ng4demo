@@ -26,6 +26,6 @@ app.get('/lazy', (req, res) => {
 	res.render('index', {req});
 });
 
-app.listen(8000,() => {
+app.listen(5000,() => {
 	console.log('listening...')
 });

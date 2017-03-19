@@ -11,9 +11,10 @@ export class HomeView {}
 @Component({
 	selector: 'demo-app',
 	template: `
-	  <h1>Universal Demo</h1>
+	  <h1>Angular 4 with Webpack and Express</h1>
 	  <a routerLink="/">Home</a>
 	  <a routerLink="/lazy">Lazy</a>
+		<a routerLink="/crazy">Crazy</a>
 	  <router-outlet></router-outlet>
 	`
 })
@@ -22,7 +23,7 @@ export class AppComponent {}
 @NgModule({
 	imports: [
 		BrowserModule.withServerTransition({
-		  appId: 'universal-demo-app'
+		  appId: 'ng4-demo'
 		}),
 		RouterModule.forRoot([
 			{ path: '', component: HomeView, pathMatch: 'full'},
